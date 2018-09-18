@@ -1,0 +1,16 @@
+{
+    "name": "sergey/wcms.loc",
+    "authors": [
+        {
+            "name": "Sergey Zaligin",
+            "email": "webdevjsphp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "wcms\\": "vendor/wcms",
+          "app\\": "app"
+        }
+     },
+    "require": {}
+}
