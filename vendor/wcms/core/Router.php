@@ -55,6 +55,30 @@ class Router
      */
     public static function matchRoute($url) 
     {
+        // iteration on table routes
+        foreach (self::$routes as $pattern => $route) {
+            // find coincidence $pattern with $url and if true write value in $matches
+            if (preg_match("#$pattern#", $url, $matches)) {
+                // rebuild array $match in string key (except int) 
+                foreach ($matches as $key => $value) {
+                    if (is_string($key)) {
+                        $route[$key] = $value; 
+                    }
+                }
+                if (empty($route['action'])) {
+                    $route['action'] = 'index';
+                }
+                if (!isset($route['prefix'])) {
+                    $route['prefix'] = '';
+                } else {
+                    $route['prefix'] .= '\\';
+                }
+                self::$route = $route;
+                debug(self::$route);
+                return true;
+            }
+        }
+        
         return false;
     }
     
