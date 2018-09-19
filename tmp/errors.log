@@ -26,4 +26,8 @@
  ================= 
  [2018-09-19 12:00:02] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
  ================= 
+ [2018-09-19 14:18:27] | Текст ошибки: Class 'wcms\Exception' not found | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 47
+ ================= 
+ [2018-09-19 14:18:51] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 47
+ ================= 
  

@@ -42,9 +42,10 @@ class Router
     public static function dispatch($url) 
     {
         if (self::matchRoute($url)) {
-            echo 'yes';
+                    echo $controller = 'app\controllers\\' . self::$route['prefix'] 
+                            . self::$route['controller'] . 'Controller';
         } else {
-            echo 'NO';
+            throw new \Exception('Страница не найдена', 404);
         }
     }
     /**
