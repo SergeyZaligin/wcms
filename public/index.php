@@ -5,6 +5,6 @@ require_once CONF . '/routes.php';
 
 new wcms\App();
 
-debug(wcms\Router::getRoutes());
+//debug(wcms\Router::getRoutes());
 
 //throw new Exception('404', 404);

@@ -30,4 +30,18 @@
  ================= 
  [2018-09-19 14:18:51] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 47
  ================= 
+ [2018-09-19 17:24:46] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 59
+ ================= 
+ [2018-09-19 17:25:06] | Текст ошибки: Контроллер app\controllers\PageOneController не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 56
+ ================= 
+ [2018-09-19 17:25:19] | Текст ошибки: Контроллер app\controllers\PageOneController не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 56
+ ================= 
+ [2018-09-19 17:27:07] | Текст ошибки: Контроллер app\controllers\PageOneController не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 56
+ ================= 
+ [2018-09-19 17:28:47] | Текст ошибки: Контроллер app\controllers\ViewController не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 56
+ ================= 
+ [2018-09-19 17:29:01] | Текст ошибки: Контроллер app\controllers\PageController не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 56
+ ================= 
+ [2018-09-19 17:29:16] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 53
+ ================= 
  
