@@ -1,5 +1,7 @@
 <?php
 require_once dirname(__DIR__) . '/config/init.php';
-//echo $_SERVER['QUERY_STRING'];
+require_once LIBS . '/functions.php';
 
 new wcms\App();
+
+debug(wcms\App::$app->getProperties());
