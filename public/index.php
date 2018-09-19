@@ -1,3 +1,5 @@
 <?php
 require_once dirname(__DIR__) . '/config/init.php';
-echo $_SERVER['QUERY_STRING'];
+//echo $_SERVER['QUERY_STRING'];
+
+new wcms\App();

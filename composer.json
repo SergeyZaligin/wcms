@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "wcms\\": "vendor/wcms",
+          "wcms\\": "vendor/wcms/core",
           "app\\": "app"
         }
      },

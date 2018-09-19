@@ -20,7 +20,7 @@ class ComposerStaticInit487f38b994a1c5432976f83436f958e5
     public static $prefixDirsPsr4 = array (
         'wcms\\' => 
         array (
-            0 => __DIR__ . '/..' . '/wcms',
+            0 => __DIR__ . '/..' . '/wcms/core',
         ),
         'app\\' => 
         array (
