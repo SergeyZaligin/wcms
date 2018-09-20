@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use RedBeanPHP\R as R;
 
 /**
  * MainController
@@ -12,9 +13,9 @@ class MainController extends AppController
 {
     public function indexAction() 
     {
-        //echo 'MainController::IndexAction';
-        //print_r($this->route);
+        $posts = R::findAll('test');
+        //debug($posts);
         $this->setMeta('Индекс пейдж', "Это описание индекс пейдж", "Это кейвордс");
-        $this->setData(['name' => 'Suslik']);
+        $this->setData(compact('posts'));
     }
 }

@@ -2,6 +2,8 @@
 
 namespace wcms\base;
 
+use wcms\Db;
+
 /**
  * Description of Model
  *
@@ -15,7 +17,7 @@ abstract class Model
     
     public function __construct() 
     {
-        
+        Db::instance();
     }
 
 }

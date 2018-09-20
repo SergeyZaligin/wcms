@@ -61,4 +61,32 @@
  ================= 
  [2018-09-20 12:59:24] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
  ================= 
+ [2018-09-20 16:38:42] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 16:39:37] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 16:40:45] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 16:41:26] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 17:18:24] | Текст ошибки: Class 'wcms\Exception' not found | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Db.php | Строка 21
+ ================= 
+ [2018-09-20 17:18:56] | Текст ошибки: Не удалось подключиться к базе данных | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Db.php | Строка 21
+ ================= 
+ [2018-09-20 17:18:56] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-20 17:18:59] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-20 17:22:23] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 15
+ ================= 
+ [2018-09-20 17:23:08] | Текст ошибки: Class 'app\controllers\R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 14
+ ================= 
+ [2018-09-20 17:23:41] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 16
+ ================= 
+ [2018-09-20 17:23:56] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 16
+ ================= 
+ [2018-09-20 17:24:22] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 16
+ ================= 
+ [2018-09-20 17:34:26] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/views/layouts/default.php | Строка 13
+ ================= 
  

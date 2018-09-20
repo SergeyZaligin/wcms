@@ -3,7 +3,7 @@
 namespace app\controllers;
 
 use wcms\base\Controller;
-
+use app\models\AppModel;
 /**
  * Base controller on application
  *
@@ -11,5 +11,9 @@ use wcms\base\Controller;
  */
 class AppController extends Controller
 {
-    
+    public function __construct($route) 
+    {
+        parent::__construct($route);
+        new AppModel();
+    }
 }
