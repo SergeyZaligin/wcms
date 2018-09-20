@@ -2,15 +2,17 @@
 
 namespace app\controllers;
 
+
 /**
- * Description of MainController
+ * MainController
  *
  * @author sergey
  */
-class MainController 
+class MainController extends AppController
 {
     public function indexAction() 
     {
         echo 'MainController::IndexAction';
+        print_r($this->route);
     }
 }
