@@ -7,7 +7,7 @@ namespace wcms\base;
  *
  * @author Sergey
  */
-abstract class View 
+class View 
 {
     /**
      * Array routes
@@ -50,7 +50,11 @@ abstract class View
      * 
      * @var array
      */
-    public $meta = [];
+    public $meta = [
+        'title' => '',
+        'description' => '',
+        'keywords' => ''
+    ];
     
     /**
      * Constructor view
@@ -71,5 +75,36 @@ abstract class View
             $this->layout = $layout ?: LAYOUT;
         }
     }
-
+    
+    public function render($data) 
+    {
+        if (is_array($data)) {
+            extract($data);
+        }
+        $viewFile = APP . '/views/' . $this->prefix . $this->controller . '/' . $this->view . '.php';
+        if (is_file($viewFile)) {
+            ob_start();
+            require_once $viewFile;
+            $content = ob_get_clean();
+        } else {
+            throw new Exception("Не найден вид {$viewFile}", 500);
+        }
+        if (false !== $this->layout) {
+            $layoutFile = APP . '/views/layouts/' . $this->layout . '.php';
+            if (is_file($layoutFile)) {
+                require_once $layoutFile;
+            } else {
+                throw new Exception("Не найден вид {$layoutFile}", 500);
+            }
+        }
+    }
+    
+    public function getMeta() 
+    {
+        $meta  =  "<meta name='description' content='{$this->meta['description']}'>" . PHP_EOL;
+        $meta .=  "<meta name='keywords' content='{$this->meta['keywords']}'>" . PHP_EOL;
+        $meta .=  "<title>{$this->meta['title']}</title>" . PHP_EOL;
+        return $meta;
+    }
+    
 }

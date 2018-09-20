@@ -34,6 +34,12 @@ abstract class Controller
      */
     public $view;
     /**
+     * layout name
+     * 
+     * @var string
+     */
+    public $layout;
+    /**
      * Prefix name
      * 
      * @var string
@@ -64,6 +70,12 @@ abstract class Controller
         $this->model = $route['controller'];
         $this->view = $route['action'];
         $this->prefix = $route['prefix'];
+    }
+    
+    public function getView() 
+    {
+        $viewObject = new View($this->route, $this->layout, $this->view, $this->meta);
+        $viewObject->render($this->data);
     }
     
     /**
