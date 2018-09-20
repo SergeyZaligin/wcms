@@ -7,7 +7,7 @@
   <?=$this->getMeta(); ?>
 </head>
 <body>
-    <h1> Default <?=$name; ?></h1>
+    <h1>Default</h1>
     <?=$content; ?>
 </body>
 </html>

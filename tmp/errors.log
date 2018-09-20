@@ -39,4 +39,26 @@
  ================= 
  [2018-09-20 10:25:18] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 61
  ================= 
+ [2018-09-20 12:48:03] | Текст ошибки: Контроллер app\controllers\DfdfController не найден | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-20 12:48:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-20 12:50:13] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-20 12:50:27] | Текст ошибки: Контроллер app\controllers\PageController не найден | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-20 12:50:36] | Текст ошибки: Контроллер app\controllers\PageController не найден | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-20 12:51:53] | Текст ошибки: Call to undefined method app\controllers\PageController::getView() | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 55
+ ================= 
+ [2018-09-20 12:52:16] | Текст ошибки: Class 'wcms\base\Exception' not found | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-20 12:54:06] | Текст ошибки: Class 'wcms\base\Exception' not found | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-20 12:54:30] | Текст ошибки: Не найден вид E:\OSPanel\domains\wcms.loc/app/views/Page/view.php | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-20 12:57:09] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-20 12:59:24] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
  

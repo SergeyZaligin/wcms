@@ -7,9 +7,12 @@ namespace wcms\base;
  *
  * @author Sergey
  */
-class Model 
+abstract class Model 
 {
-
+    public $attributes = [];
+    public $errors = [];
+    public $rules = [];
+    
     public function __construct() 
     {
         
